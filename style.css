@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(44, 44, 66);
+  padding-block: 50px;
+}
+
+header img {
+  flex: 1;
+  max-width: 50%;
+}
+
+header .about-me {
+  padding: 30px 20px;
+}
+
+header .about-me p {
+  max-width: min(80%, 400px);
+  padding-block: 20px;
+}
+
+header .about-me ul li {
+  margin-inline: 1rem;
+}
+
+header .about-me ul li:first-of-type {
+  margin-left: auto;
+}
+
+main {
+  background-color: red;
+}
+
+footer {
+  background-color: yellow;
+}
+
+/** Utility Classes **/
+
+.container {
+  margin-inline: auto;
+  max-width: min(90%, 1000px);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.light {
+  color: bisque;
+}
+
+.dark {
+  color: rgb(44, 44, 66);
+}
+
+.bg-dark {
+  background-color: rgb(44, 44, 66);
+}
+
+.bg-light {
+  background-color: bisque;
+}
+
+.lg {
+  font-size: 24px;
+}
+
+.reg {
+  font-size: 16px;
+}
