@@ -6,10 +6,13 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  line-height: 1.25;
 }
 
 body {
   min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -33,6 +36,11 @@ header .about-me p {
 
 header .about-me ul li {
   margin-inline: 1rem;
+  cursor: pointer;
+}
+
+header .about-me ul li a i {
+  /**/
 }
 
 header .about-me ul li:first-of-type {
